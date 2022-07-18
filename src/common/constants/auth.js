@@ -1,0 +1,1 @@
+export default AUTH_LOCAL_STORAGE = 'user'
