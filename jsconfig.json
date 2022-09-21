@@ -13,7 +13,10 @@
       "@pages": ["./src/pages"],
       "@router": ["./src/router"],
       "@store": ["./src/store"],
-    }
+      "@plugins": ["./src/plugins"],
+    },
+    "jsx": "preserve",
+    "types": ["element-plus/global"]
   },
   "exclude": ["node_modules", "dist"],
   "include": ["src/**/*"]
